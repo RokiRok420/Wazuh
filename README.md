@@ -1,4 +1,3 @@
-
 ## Installing the virtual machine
 1.Virtualization software (such as VirtualBox or VMware Workstation)
 
@@ -108,8 +107,31 @@ Agter Edit Run this " sudo systemctl restart wazuh-agent "
 
 # VirusTotal Integration 
 
+<img width="1906" height="1032" alt="Screenshot 2026-07-21 043845" src="https://github.com/user-attachments/assets/7db48673-262f-408d-a46c-73fde25193f8" />
+<img width="1913" height="1021" alt="Screenshot 2026-07-21 043901" src="https://github.com/user-attachments/assets/87431e59-02b0-4205-9b83-030aa8d40ea8" />
 
 
+Step 1: Create a VirusTotal account
+
+Go to the VirusTotal website and create a free account.
+<img width="1912" height="1036" alt="Screenshot 2026-07-21 044042" src="https://github.com/user-attachments/assets/f5f96355-686f-496a-a48c-83ecb727b4eb" />
 
 
+After logging in:
+- Click your profile.
+- Open API Key.
+- Copy your API key.
+<img width="1911" height="257" alt="Screenshot 2026-07-21 044209" src="https://github.com/user-attachments/assets/2c10258b-a2dd-4f0b-a7e6-03a0362e8a8d" />
+<img width="1902" height="426" alt="Screenshot 2026-07-21 044226" src="https://github.com/user-attachments/assets/d598ce95-6d79-475c-adf2-bce5513c5a2f" />
 
+Step 2: Open the Wazuh configuration
+
+On the Wazuh Manager:" sudo nano /var/ossec/etc/ossec.conf "
+<img width="1852" height="907" alt="Screenshot 2026-07-21 074722" src="https://github.com/user-attachments/assets/83225c68-9e65-44dc-bedf-b5d6e73aa820" />
+
+Step 3: Restart Wazuh
+" sudo systemctl restart wazuh-manager "
+<img width="842" height="72" alt="image" src="https://github.com/user-attachments/assets/216b8c01-31a0-4ad4-83d8-8fbe8836dfac" />
+
+<img width="1902" height="852" alt="Screenshot 2026-07-21 045757" src="https://github.com/user-attachments/assets/a2e9169e-c5f1-4ba3-a8b9-43475cad0be5" />
+<img width="1917" height="1028" alt="Screenshot 2026-07-21 045813" src="https://github.com/user-attachments/assets/cb5933f7-41c7-4fb6-9f7f-74a56bb4f6a7" />
