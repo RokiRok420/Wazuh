@@ -42,6 +42,7 @@
 
 - Select the VM and click Start.
 - Follow the operating system installation process.
+<img width="1918" height="1021" alt="Screenshot 2026-07-21 071809" src="https://github.com/user-attachments/assets/11a55192-69f0-4d66-b199-9221cba723b9" />
 
 # Installing Wazuh
 
