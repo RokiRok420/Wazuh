@@ -53,7 +53,7 @@
 
 Once the assistant finishes the installation, the output shows the access credentials and a message that confirms that the installation was successful.
 <img width="770" height="188" alt="image" src="https://github.com/user-attachments/assets/f1e103ad-5b96-4448-a333-f8a03b4187fe" />
-Step 1: Open the dashboard
+## Step 1: Open the dashboard
 
 In your browser: https://<VM-IP>
 
@@ -65,20 +65,20 @@ In your browser: https://<VM-IP>
 
 <img width="1919" height="1073" alt="18" src="https://github.com/user-attachments/assets/cfabd745-6f7f-4946-8ecf-493e7ed63e94" />
 
-step 2. Add a Open Agent Management
+## step 2. Add a Open Agent Management
 Go to:
 
 ☰ Menu → Agents management → Summary → Deploy new agent. This wizard generates the correct installation command for your operating system.
 <img width="473" height="982" alt="image" src="https://github.com/user-attachments/assets/425e890f-854e-4544-a9fc-5f90a84c55ad" />
 
-Step 3: Select the agent settings
+## Step 3: Select the agent settings
 Operating System: Windows 
 Server address: Your Wazuh Manager IP (for example, 172.24.-.-)
 Agent name: e.g. win-agent
 <img width="1917" height="1079" alt="Screenshot 2026-07-20 152145" src="https://github.com/user-attachments/assets/b1510d57-85b2-469e-9d24-15e00fe74569" />
 <img width="1919" height="1077" alt="Screenshot 2026-07-20 152122" src="https://github.com/user-attachments/assets/115b9243-db09-4d79-8b92-de93ed3082bb" />
 
-Step 4: Run the generated command on the agent machine
+## Step 4: Run the generated command on the agent machine
 <img width="973" height="927" alt="Screenshot 2026-07-20 152219" src="https://github.com/user-attachments/assets/12d4dd22-b36d-4430-b3fc-faadc0b04b20" />
 
 " Invoke-WebRequest -Uri https://packages.wazuh.com/4.x/windows/wazuh-agent-4.14.6-1.msi -OutFile $env:tmp\wazuh-agent; msiexec.exe /i $env:tmp\wazuh-agent /q WAZUH_MANAGER='172.24.-.-' WAZUH_AGENT_NAME='win' "
@@ -89,7 +89,7 @@ Step 4: Run the generated command on the agent machine
 
 <img width="897" height="707" alt="Screenshot 2026-07-21 070915" src="https://github.com/user-attachments/assets/9ecf205e-4dc0-4467-b7fe-309e16a0ca34" />
 
-step 5: Open the configuration file
+## step 5: Open the configuration file
 - If it's not already open:
 - sudo nano /var/ossec/etc/ossec.conf
   <img width="1918" height="257" alt="Screenshot 2026-07-21 043925" src="https://github.com/user-attachments/assets/f691ae90-283e-47cd-b173-5afa046d4da2" />
@@ -111,7 +111,7 @@ Agter Edit Run this " sudo systemctl restart wazuh-agent "
 <img width="1913" height="1021" alt="Screenshot 2026-07-21 043901" src="https://github.com/user-attachments/assets/87431e59-02b0-4205-9b83-030aa8d40ea8" />
 
 
-Step 1: Create a VirusTotal account
+## Step 1: Create a VirusTotal account
 
 Go to the VirusTotal website and create a free account.
 <img width="1912" height="1036" alt="Screenshot 2026-07-21 044042" src="https://github.com/user-attachments/assets/f5f96355-686f-496a-a48c-83ecb727b4eb" />
@@ -124,12 +124,12 @@ After logging in:
 <img width="1911" height="257" alt="Screenshot 2026-07-21 044209" src="https://github.com/user-attachments/assets/2c10258b-a2dd-4f0b-a7e6-03a0362e8a8d" />
 <img width="1902" height="426" alt="Screenshot 2026-07-21 044226" src="https://github.com/user-attachments/assets/d598ce95-6d79-475c-adf2-bce5513c5a2f" />
 
-Step 2: Open the Wazuh configuration
+## Step 2: Open the Wazuh configuration
 
 On the Wazuh Manager:" sudo nano /var/ossec/etc/ossec.conf "
 <img width="1852" height="907" alt="Screenshot 2026-07-21 074722" src="https://github.com/user-attachments/assets/83225c68-9e65-44dc-bedf-b5d6e73aa820" />
 
-Step 3: Restart Wazuh
+## Step 3: Restart Wazuh
 " sudo systemctl restart wazuh-manager "
 <img width="842" height="72" alt="image" src="https://github.com/user-attachments/assets/216b8c01-31a0-4ad4-83d8-8fbe8836dfac" />
 
