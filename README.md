@@ -135,3 +135,4 @@ Step 3: Restart Wazuh
 
 <img width="1902" height="852" alt="Screenshot 2026-07-21 045757" src="https://github.com/user-attachments/assets/a2e9169e-c5f1-4ba3-a8b9-43475cad0be5" />
 <img width="1917" height="1028" alt="Screenshot 2026-07-21 045813" src="https://github.com/user-attachments/assets/cb5933f7-41c7-4fb6-9f7f-74a56bb4f6a7" />
+<img width="1918" height="982" alt="image" src="https://github.com/user-attachments/assets/c178bae4-b897-47ce-ad5c-b5fb6cceecc9" />
