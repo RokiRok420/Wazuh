@@ -1,4 +1,4 @@
-<img width="897" height="707" alt="Screenshot 2026-07-21 070915" src="https://github.com/user-attachments/assets/9b34cba3-6ca4-4f45-97b2-28bf8404ea99" /># Wazuh
+
 ## Installing the virtual machine
 1.Virtualization software (such as VirtualBox or VMware Workstation)
 
@@ -105,7 +105,10 @@ Keep it as yes.
 
 Agter Edit Run this " sudo systemctl restart wazuh-agent "
 
-# 
+# VirusTotal Integration 
+
+
+
 
 
 
